@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CyberPunkGames</title>
+	<link rel="stylesheet" type="text/css" href="./css/styles.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+<body>
+	<div class="container">
+		<header>Cyber-Punk Games</header>
+		<section class="main">
+			<div id="parrafo">
+				<p class="pparrafo">
+				¿Te gustaría participar para ganar una renovación al estilo cyberpunk?
+				Aquellos seguidores que se registren en el formulario de esta página les daremos la oportunidad de ganar una remodelación de Set al puro estilo CyberPunk. También estarás participando para ganar una modificación futurista para tu automóvil; y por si fuera poco, te enviaremos un libro de China Maville "el padre de las novelas CyberPunk".
+				Recuérdalo ¡Lo único que tienes que hacer es dejar tus datos en el formulario de abajo y te mandaremos un correo con toda la información!	
+				</p>				
+			</div>
+
+			<div id="movible">
+				<!--<img src="./images/anime.jpg">-->
+			</div>
+
+
+
+
+			<div id="movibleChico"> <!--EEEEEESTEEEEEEE-->
+
+				<!--<img src="./images/anime.jpg">-->
+			</div>
+
+
+			<div id="divformulario">
+				<form class="formulario" onsubmit="return llenarDatos()">
+				 <P class="pform">INTRODUCE TUS DATOS<P>
+					<label>Nombre:</label><br>
+					<input type="text" id="iname" class="datos" pattern="[A-Za-z\s]+" required><br>
+					<label>Apellido:</label><br>
+					<input type="text" id="ilastname" class="datos" pattern="[A-Za-z\s]+" required><br>	
+					<label>Email:</label><br>
+					<input type="email" id="imail" class="datos" required><br>
+					<label>Edad:</label><br>
+					<input type="number" id="iage" class="datos" max="90" min="10" required><br>
+					<input type="submit" value="Enviar" id="btn" onclick="testInfo(document.getElementById('imail'));">
+				</form>
+			</div>
+
+			<div id="bookImage">
+				<img src="./images/libro.jpg">
+			</div>
+
+			<footer>ALL RIGHTS RESERVED</footer>
+	<script type="text/javascript" src="./js/juegos.js"></script>
+
+		</section>
+	</div>
+
+</body>
+</html>
+
+<!--RECUERDA AÑADIR ICONO EN LA PESTAÑA-->

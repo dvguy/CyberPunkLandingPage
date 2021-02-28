@@ -1,0 +1,304 @@
+
+body{
+	background-image: url("../images/fondo.jpg");
+	background-size: 100%;
+
+}
+
+#bookImage{/*MODIFICAR ESTO EN LOS MEDIA QUERYS DE HECHO PONERLO AL MAX WIFTH 1000*/
+	background-color: rgb(0, 0, 0,.75);
+}
+
+#bookImage img{
+	box-sizing: border-box; 
+	float: center;
+	height: auto;
+	margin-left: 37.5%;
+	padding: 1%;
+	width: 25%;
+}
+
+#btn{
+	background-color: #eaea2a;
+	border-color: #eaea2a;
+	color: black;
+	cursor: pointer;
+	font-family: my5Font;
+	font-size: 70%;
+	height: 40px;
+	margin-top: 1%;
+	outline: none;
+	width: 18%;
+}
+
+
+.container{
+	margin: 0 auto;
+	width: 85%;
+}
+
+.datos /*ESTOS SON LOS INPUTS*/
+{
+	background-color: rgb(77,77,77, .7);
+	border-color: #02d7f2;
+	color: white;
+	font-family: my5Font;
+	font-size: 70%;
+	height: 25px;
+	margin-bottom: 1.5%;
+	outline: none;
+	padding-left: 22px;
+	width: 30%;
+}
+
+
+#divformulario{
+	background-image: url("../images/circuito2.jpg");
+	background-size: 100%;
+	box-sizing: border-box; 
+	font-family: my5Font;
+	font-size: 180%;
+	padding: 2%;
+	text-align: center;
+	width: 100%;
+}
+
+
+footer{
+	background-color: rgb(234, 234, 42, .7);
+	color: black;
+	font-family: my5Font;
+	font-size: 150%;
+	margin-top: 1%;
+	text-align: center;
+}
+
+header{
+	background-color: #eaea2a;
+	font-family: my2Font;
+	font-size: 300%;
+	text-align: center;
+}
+
+
+label{
+	color: #02d7f2;
+}	
+
+.main{
+	box-sizing: border-box; 
+	color: white;
+	padding-top: 1%;
+}
+
+#movible{/*MODIFICAR ESTO EN LOS MEDIA QUERYS DE HECHO PONERLO AL MAX WIFTH 1000*/
+	background-image: url("../images/an2.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 300px; 
+	margin-top: -2.2%;
+	width: 100%;
+}
+
+#parrafo{/*DIV DEL PARRAFO*/
+	background-color: #ff52a8;
+	box-sizing: border-box; 
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+#parrafo p{/*LETRAS DEL PARRAFO*/
+	color: white;
+    font-family: my5Font;
+    font-size: 150%;
+    padding: 1%;
+}
+
+.pform{/*TITULO DEL FORMULARIO*/
+	color: #eaea2a;
+	font-size: 150%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px){
+
+	#bookImage img{
+		box-sizing: border-box; 
+		float: center;
+		height: auto;
+		margin-left: 29.5%;
+		padding: 1%;
+		width: 40%;
+	}
+
+	#btn{
+		background-color: #eaea2a;
+		border-color: #eaea2a;
+		color: black;
+		cursor: pointer;
+		font-family: my5Font;
+		font-size: 90%;
+		height: 25px;
+		margin-top: 1%;
+		outline: none;
+		width: 35%;
+	}
+
+	#divformulario{
+		box-sizing: border-box; 
+		background-image: url("../images/circuito2.jpg");
+		background-size: 100%;
+		box-sizing: border-box; 
+		font-family: my5Font;
+		font-size: 115%;
+		padding: 2%;
+		text-align: center;
+		width: 100%;
+	}
+
+	.datos{ /*ESTOS SON LOS INPUTS*/
+		background-color: rgb(77,77,77, .7);
+		border-color: #02d7f2;
+		color: white;
+		font-family: my5Font;
+		font-size: 70%;
+		height: 20px;
+		margin-bottom: 1.5%;
+		outline: none;
+		padding-left: 22px;
+		width: 50%;
+	}
+
+	header{
+		background-color: red;
+		font-family: my2Font;
+		font-size: 230%;
+		text-align: center;
+	}
+
+	label{
+		font-size: 120%;
+	}
+
+
+
+
+
+	#movible{/*MODIFICAR ESTO EN LOS MEDIA QUERYS DE HECHO PONERLO AL MAX WIFTH 1000*/
+		display: none;
+	}
+
+	#movibleChico{ /*MODIFICAR ESTO EN LOS MEDIA QUERYS DE HECHO PONERLO AL MAX WIFTH 1000*/
+		background-image: url("../images/an2.jpg");
+		background-size: 100%;
+		background-repeat: no-repeat;	
+		/*background-attachment: fixed;*/
+		height: 20vh; 
+		margin-top: -5%;
+		width: 100%;
+	}
+
+
+
+
+
+
+	#parrafo{/*DIV DEL PARRAFO*/
+		background-color: #ff52a8;
+		box-sizing: border-box; 
+		padding-left: 1%;
+		padding-right: 1%;
+	}
+
+	#parrafo p{/*LETRAS DEL PARRAFO*/
+		color: white;
+	    padding: 1%;
+	    font-family: my5Font;
+	    font-size: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 800px)
+{
+	#movibleChico
+	{
+		display: none
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face
+{
+	font-family: my1Font;
+	src: url("../fonts/cyberverse/Cyberverse Bold.otf");
+}
+
+@font-face
+{
+	font-family: my2Font;
+	src: url("../fonts/cyberway_riders/Cyberway Riders.otf");
+}
+
+@font-face
+{
+	font-family: my3Font;
+	src: url("../fonts/dark_future/Dark Future Italic.ttf");
+}
+
+@font-face
+{
+	font-family: my4Font;
+	src: url("../fonts/futurepaint/FuturePaint.ttf");
+}
+
+@font-face
+{
+	font-family: my5Font;
+	src: url("../fonts/Share_Tech_Mono/ShareTechMono-Regular.ttf");
+}
+
+
